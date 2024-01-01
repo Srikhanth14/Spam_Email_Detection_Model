@@ -32,7 +32,7 @@ def spam_form():
             
         else:
             st.write("Predicted Label: Ham mail")
-            st.image(Image.open('Good.jpg'), use_column_width=True)
+            st.image(Image.open('good.jpg'), use_column_width=True)
             
     
     def main():
