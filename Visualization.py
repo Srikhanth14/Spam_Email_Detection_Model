@@ -15,7 +15,7 @@ def spam_email_visualization():
     st.write("Explore a visualization highlighting patterns and insights from the Spam Email dataset.")
 
     # Image 1: Count Plot - Distribution of Spam and Ham Emails
-    st.header("1. Count Plot - Distribution of Spam and Ham Emails")
+    st.header("Count Plot - Distribution of Spam and Ham Emails")
     image1 = Image.open("Distribution.png")  # Replace with your image file
     st.image(image1, caption="Count Plot - Spam and Ham Emails", use_column_width=True)
 
