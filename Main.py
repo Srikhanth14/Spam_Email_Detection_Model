@@ -15,7 +15,7 @@ selected = option_menu(
     menu_title="Spam Email Prediction",
     options=["Home", "Dataset", "Insights", "Input Form"],
     icons=["house-fill", "book", "bar-chart-fill", "card-list"],
-    menu_icon="menu-up",
+    menu_icon="envelope-fill",
     default_index=0,
     orientation="horizontal"
 )
