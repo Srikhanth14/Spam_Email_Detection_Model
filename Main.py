@@ -14,7 +14,7 @@ st.set_page_config(page_title="Spam Email Prediction", page_icon="✉️", layou
 selected = option_menu(
     menu_title="Spam Email Prediction",
     options=["Home", "Dataset", "Insights", "Input Form"],
-    icons=["house-fill", "book", "bar-chart-fill", "card-list"],
+    icons=["house-fill", "database", "pie-chart-fill", "envelope-paper-fill"],
     menu_icon="envelope-fill",
     default_index=0,
     orientation="horizontal"
