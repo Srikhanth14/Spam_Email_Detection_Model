@@ -17,7 +17,7 @@ def spam_data():
     st.header("Sample Data:")
     st.write("Here's a glimpse of the dataset:")
     data = pd.read_csv("Spam_Email_Detection.csv") # Replace with your actual dataset file
-    data = data.drop(columns=['Unnamed:2','Unnamed:3','Unnamed:4'],inplace=True)
+    data = data.drop(['Unnamed:2','Unnamed:3','Unnamed:4'],axis=1,inplace=True)
     st.dataframe(data.head())
 
     # Download Dataset
