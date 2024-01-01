@@ -18,14 +18,11 @@ def spam_home():
     # Key Features
     st.subheader("Key Features:")
     
-    st.write("1.**Spam Detection:**")
-    st.write("   Explore the capabilities of our spam detection model. It analyzes the content of emails to accurately predict whether they are spam or legitimate.")
+    st.write("1.**Spam Detection:** Explore the capabilities of our spam detection model. It analyzes the content of emails to accurately predict whether they are spam or legitimate.")
 
-    st.write("2.**User-Friendly Interface:**")
-    st.write("   Navigate effortlessly through our user-friendly interface. No expertise required – simply input your email message and witness the magic.")
+    st.write("2.**User-Friendly Interface:** Navigate effortlessly through our user-friendly interface. No expertise required – simply input your email message and witness the magic.")
 
-    st.write("3.**Predictive Insights:**")
-    st.write("   Visualize the model's predictions and gain insights into the factors contributing to the classification of emails.")
+    st.write("3.**Predictive Insights:** Visualize the model's predictions and gain insights into the factors contributing to the classification of emails.")
 
     # About Me
     st.subheader("About Me:")
