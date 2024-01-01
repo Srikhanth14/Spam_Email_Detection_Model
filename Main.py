@@ -12,7 +12,7 @@ import home,Dataset,Visualization,form
 st.set_page_config(page_title="Spam Email Prediction", page_icon="✉️", layout="wide")
 
 selected = option_menu(
-    menu_title="Spam Email Prediction",
+    menu_title="Ham or Spam",
     options=["Home", "Dataset", "Insights", "Input Form"],
     icons=["house-fill", "database", "pie-chart-fill", "envelope-paper-fill"],
     menu_icon="envelope-fill",
