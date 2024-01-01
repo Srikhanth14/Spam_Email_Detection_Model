@@ -27,11 +27,11 @@ def spam_form():
     
         # Display the prediction result
         if prediction[0] == 1:
-            st.write("Predicted Label: Spam mail")
+            st.error("Predicted Label: Spam mail")
             st.image(Image.open('Spam.jpg'), use_column_width=True)
             
         else:
-            st.write("Predicted Label: Ham mail")
+            st.success("Predicted Label: Ham mail")
             st.image(Image.open('good.jpg'), use_column_width=True)
             
     
